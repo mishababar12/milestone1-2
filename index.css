@@ -1,0 +1,163 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 700;
+    color: #2c3e50;
+    font-size: 24px;
+  }
+  
+  .heading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .heading img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 0px; 
+  }
+  
+  
+  h1 {
+    margin-bottom: 60px; 
+    text-decoration: underline;
+    font-size: 40px;
+  }
+  
+  h2 {
+    margin-top: 10px;  
+    font-size: 22px;
+    text-decoration: underline;
+  }
+  
+  #personal-info p {
+    margin-top: 30px; 
+    margin-bottom: 90px;
+    font-size: 22px;
+    font-style: bold;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 10px 0;
+    
+  }
+  
+  li {
+    margin: 5px 0;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Container */
+  .resume-section {
+    background: rgba(233, 203, 220, 0.671);
+    padding: 80px;
+    margin: 60px;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile.picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 6px solid #e2ecee;
+    text-align: center;
+  }
+  
+  /* Layout */
+  #personal-info {
+    text-align: left;
+    margin-top: 0;
+  }
+  #personal-info h1{
+    font-size: 40px;
+  }
+  
+  #personal-info ul {
+    margin-top: 5px;
+    padding-left: 0;
+
+  }
+  #skills {
+    display: block; /* Make sure it’s initially visible */
+  }
+  
+  #education,
+  #skills,
+  #work-experience {
+    margin-top: 30px;
+  }
+  
+  /* Skills Section */
+  #skills ul {
+    display: block;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+  }
+  
+  ul li {
+    font-size: 18px;
+    margin-bottom: 8px;
+    flex-basis: 200px;
+  }
+  .toggle-button {
+    background-color: #a3c7df;
+    color: rgb(37, 2, 26);
+    border: none;
+    padding: 12px 20px; 
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block; 
+    width: auto; 
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .toggle-button:active {
+    transform: scale(0.98); /* Slightly shrinks on click for feedback */
+  }
+  
+  /* Responsive adjustment for smaller screens */
+  @media (max-width: 768px) {
+    .toggle-button {
+      padding: 6px 12px; /* Smaller padding for mobile */
+      font-size: 12px;
+    }
+  }
+    h1, h2, li {
+      font-size: 20px;
+    }
+  
+  
